@@ -65,7 +65,7 @@ body {
    }
 }
 
-a.button1{
+.button1{
   display:inline-block;
   padding:0.35em 1.2em;
   border:0.1em solid #FFFFFF;
@@ -79,13 +79,13 @@ a.button1{
   text-align:center;
   transition: all 0.2s;
 }
- a.button1:hover{
+ .button1:hover{
    color:#000000;
    background-color:#FFFFFF;
 }
 
 @media all and (max-width:30em){
-  a.button1{
+  .button1{
    display:block;
    margin:0.4em auto;
   }
